@@ -3,3 +3,9 @@ header {
 	height: 300px;
 	padding: 50px;
 }
+.contact {
+	background-color: white;
+	color: blue;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
