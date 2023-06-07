@@ -29,28 +29,32 @@ body {
   color: white;
 }
 .nav-list {
-  top: 27px;
-  left: 240px;
+  top: 30px;
+  left: 600px;
   width: 1475px;
   height: 91px;
+  margin-left: 450px;
 }
 .big-picture {
 	display: flex;
   	justify-content: center;
   	height: 500px;
 	max-width: 500px;
-	margin-bottom: 400px;
+	margin-bottom: 450px;
 	margin-left: 450px;
 }
-.small-pictures {
-	display: flex;
-	justify-content: flex-start;
-  }
-  
-  .small-picture {
-	margin-right: 2px;
-  }
-  
-  .small-picture:last-child {
-	margin-right: 0; /* Remove the margin on the last image */
-  }
+.small-picture {
+	display: inline-block;
+  width: 90%;
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.row {
+  display: flex;
+  margin: 0 auto;
+  width: 490px;
+  height: 200px;
+  margin-right: 718px;
+  margin-bottom: 3000px;
+}
