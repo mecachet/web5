@@ -1,11 +1,27 @@
 header {
-	background-color: blue;
-	height: 300px;
-	padding: 50px;
+  background-color: blue;
+  height: 300px;
+  padding: 50px;
 }
 .contact {
-	background-color: white;
-	color: blue;
-	padding: 10px 20px;
-	border-radius: 10px;
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
+.nav-list {
+	display: flex;
+	justify-content: flex-start;
+	padding: 0;
+	list-style: none;
+  }
+  
+  .nav-list li {
+	display: inline-block;
+	margin-right: 20px;
+  }
+  
+  .navbar {
+	padding: 10px;
+	color: white;
+  }
