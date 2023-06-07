@@ -1,10 +1,10 @@
 header {
-  background-color: blue;
+  background-color: #0a22f4;
   height: 300px;
   padding: 50px;
 }
 body {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 .contact {
   background-color: white;
@@ -36,15 +36,15 @@ body {
   margin-left: 450px;
 }
 .big-picture {
-	display: flex;
-  	justify-content: center;
-  	height: 500px;
-    margin-bottom: 10px;
-	max-width: 500px;
-	margin-left: 450px;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  margin-bottom: 10px;
+  max-width: 500px;
+  margin-left: 450px;
 }
 .small-picture {
-	display: inline-block;
+  display: inline-block;
   width: 50%;
   margin: 0 5px;
   display: flex;
@@ -70,7 +70,7 @@ body {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: blue;
+  background-color: #0a22f4;
   color: white;
   text-decoration: none;
   border-radius: 20px;
@@ -80,3 +80,41 @@ body {
   text-align: center;
   margin-left: 560px;
   margin-top: 60px;
+}
+.footer {
+  background-color: #0a22f4;
+  height: 500px;
+  padding: 50px;
+  margin-top: 200px;
+}
+.footer-h3 {
+  color: white;
+  margin-left: 50px;
+}
+.footer-text {
+  color: white;
+  width: 45%;
+  text-align: left;
+}
+.lower-text1 {
+  bottom: 30px;
+  display: inline-block;
+  margin-right: 100px;
+  color: white;
+  font-size: 10px;
+  margin-left: 100px;
+}
+.lower-text2 {
+  bottom: 30px;
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+  margin-left: 500px;
+}
+.tiny-logo {
+  bottom: 30px;
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+  margin-left: 900px;
+}
