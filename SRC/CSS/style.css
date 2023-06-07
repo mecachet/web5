@@ -3,6 +3,9 @@ header {
   height: 300px;
   padding: 50px;
 }
+body {
+	overflow-x: hidden;
+}
 .contact {
   background-color: white;
   color: black;
@@ -31,24 +34,23 @@ header {
   width: 1475px;
   height: 91px;
 }
-.container {
+.big-picture {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-  }
-  
-  .big-picture {
+  	justify-content: center;
+  	height: 500px;
 	max-width: 500px;
-	height: 800px;
-  }
-  
-  .small-pictures {
+	margin-bottom: 400px;
+	margin-left: 450px;
+}
+.small-pictures {
 	display: flex;
-	justify-content: center;
-	/* Add any additional styles for the small pictures container */
+	justify-content: flex-start;
   }
   
   .small-picture {
-	width: 20%;
-	/* Set the height and other styles for the small pictures as needed */
+	margin-right: 2px;
+  }
+  
+  .small-picture:last-child {
+	margin-right: 0; /* Remove the margin on the last image */
   }
